@@ -1,0 +1,38 @@
+﻿生成启动时间为 2015/10/15 17:22:35。
+     1>项目“D:\source\git\c\vsc\source\vsc\vsc.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_DEPRECATE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt bases.c fathm_ft.c first.c hello.c main.c print1.c rhodium.c nogood.c toobig.c two_func.c
+         two_func.c
+         toobig.c
+         nogood.c
+         rhodium.c
+     1>d:\source\git\c\vsc\source\vsc\rhodium.c(17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         print1.c
+     1>d:\source\git\c\vsc\source\vsc\print1.c(10): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+         d:\source\git\c\vsc\source\vsc\print1.c(10): note: placeholders and their parameters expect 3 variadic arguments, but 1 were provided
+         d:\source\git\c\vsc\source\vsc\print1.c(10): note: the missing variadic argument 2 is required by format string '%d'
+         main.c
+     1>d:\source\git\c\vsc\source\vsc\main.c(10): warning C4013: “main_toobig”未定义；假设外部返回 int
+         hello.c
+         first.c
+         fathm_ft.c
+         bases.c
+         正在生成代码...
+     1>d:\source\git\c\vsc\source\vsc\hello.c(6): warning C4716: “main_hello”: 必须返回一个值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\source\git\c\vsc\source\Debug\vsc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\source\git\c\vsc\source\Debug\vsc.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\source\git\c\vsc\source\Debug\vsc.lib" /MACHINE:X86 Debug\bases.obj
+         Debug\fathm_ft.obj
+         Debug\first.obj
+         Debug\hello.obj
+         Debug\main.obj
+         Debug\print1.obj
+         Debug\rhodium.obj
+         Debug\nogood.obj
+         Debug\toobig.obj
+         Debug\two_func.obj
+         vsc.vcxproj -> D:\source\git\c\vsc\source\Debug\vsc.exe
+     1>已完成生成项目“D:\source\git\c\vsc\source\vsc\vsc.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.32
